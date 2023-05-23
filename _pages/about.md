@@ -2,9 +2,10 @@
 layout: about
 title: about
 permalink: /
-subtitle: <a href='https://www.mskcc.org/'>Memorial Sloan Kettering Cancer Center</a> 
-<a href='https://www.mskcc.org/departments/epidemiology-biostatistics'>Department of Epidemiology and Biostatistics</a> 
-<a href='https://www.mskcc.org/research-areas/topics/computational-oncology'>Computational Oncology</a> 
+subtitle: >
+  <a href='https://www.mskcc.org/'>Memorial Sloan Kettering Cancer Center</a> 
+  <a href='https://www.mskcc.org/departments/epidemiology-biostatistics'>Department of Epidemiology and Biostatistics</a> 
+  <a href='https://www.mskcc.org/research-areas/topics/computational-oncology'>Computational Oncology</a> 
 
 profile:
   align: right
