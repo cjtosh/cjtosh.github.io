@@ -2,7 +2,7 @@
 layout: about
 title: about
 permalink: /
-subtitle: <a href='#'>Affiliations</a>. Address. Contacts. Moto. Etc.
+subtitle: <a href='https://www.mskcc.org/'>Memorial Sloan Kettering Cancer Center</a>. Address. Contacts. Moto. Etc.
 
 profile:
   align: right
