@@ -24,35 +24,43 @@
       institution: Memorial Sloan Kettering Cancer Center
       year: 2021 – Present
       description:
-        - Supervisor: Wesley Tansey
+        - "Supervisor: Wesley Tansey"
     - title: Postdoctoral Research Scientist
       institution: Columbia University
       year: 2018 – 2021
       description:
-        - Supervisor: Daniel Hsu
+        - "Supervisor: Daniel Hsu"
 
 - title: Honors and Awards
   type: time_table
   contents:
-    - year: 1921
+    - year: 2012
       items: 
-        - Nobel Prize in Physics 
-        - Matteucci Medal
-    - year: 2029
+        - NSF Graduate Research Fellowship
+        - Williams Scholar, University of Texas at Austin, Department of Mathematics
+        - Phi Beta Kappa
+    - year: 2008–2012
       items: 
-        - Max Planck Medal
+        - University Honors 2008–2012, University of Texas at Austin
 
-- title: Academic Interests
+- title: Professional service
   type: nested_list
   contents:
-    - title: Topic 1.
+    - title: Co-organizer
       items: 
-        - Description 1.
-        - Description 2.
-    - title: Topic 2.
+        - Columbia TRIPODS 2018 Data Science Bootcamp
+        - Columbia TRIPODS 2019 Deep Learning Workshop
+    - title: Program committee/Reviewer
       items:
-        - Description 1.
-        - Description 2.
+        - Journal of Machine Learning Research (JMLR)
+        - Association for the Advancement of Artificial Intelligence (AAAI)
+        - International Conference on Artificial Intelligence and Statistics (AISTATS)
+        - International Conference on Algorithmic Learning Theory (ALT)
+        - Conference on Learning Theory (COLT)
+        - IEEE Symposium on Foundations of Computer Science (FOCS)
+        - International Conference on Machine Learning (ICML)
+        - Neural Information Processing Systems (NeurIPS)
+        - Conference on Uncertainty in Artificial Intelligence (UAI)
 
 - title: Other Interests
   type: list
