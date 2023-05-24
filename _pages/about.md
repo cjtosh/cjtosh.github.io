@@ -2,7 +2,6 @@
 layout: about
 title: about
 permalink: /
-subtitle: /
 
 profile:
   align: right
@@ -14,7 +13,6 @@ profile:
   <a href='https://www.mskcc.org/departments/epidemiology-biostatistics'>Department of Epidemiology and Biostatistics</a> <br>
 
   <a href='https://www.mskcc.org/research-areas/topics/computational-oncology'>Computational Oncology</a> 
-
 news: false  # includes a list of news items
 latest_posts: false  # includes a list of the newest posts
 selected_papers: true # includes a list of papers marked as "selected={true}"
