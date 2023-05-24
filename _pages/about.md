@@ -2,18 +2,18 @@
 layout: about
 title: about
 permalink: /
-subtitle: >
-  <a href='https://www.mskcc.org/'>Memorial Sloan Kettering Cancer Center</a> <br>
-
-  <a href='https://www.mskcc.org/departments/epidemiology-biostatistics'>Department of Epidemiology and Biostatistics</a> <br>
-
-  <a href='https://www.mskcc.org/research-areas/topics/computational-oncology'>Computational Oncology</a> 
+subtitle:
 
 profile:
   align: right
   image: prof_pic.jpg
   image_circular: false # crops the image to make it circular
-  address: 
+  address: >
+  <a href='https://www.mskcc.org/'>Memorial Sloan Kettering Cancer Center</a> <br>
+
+  <a href='https://www.mskcc.org/departments/epidemiology-biostatistics'>Department of Epidemiology and Biostatistics</a> <br>
+
+  <a href='https://www.mskcc.org/research-areas/topics/computational-oncology'>Computational Oncology</a> 
 
 news: false  # includes a list of news items
 latest_posts: false  # includes a list of the newest posts
