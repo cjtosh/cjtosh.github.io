@@ -62,7 +62,7 @@
         - Neural Information Processing Systems (NeurIPS)
         - Conference on Uncertainty in Artificial Intelligence (UAI)
 
-- title: Academic appointments
+- title: Teaching experience
   type: time_table
   contents:
     - title: Lecturer
@@ -72,8 +72,18 @@
         - "COMS 3203: Discrete Mathematics"
     - title: Teaching assistant
       institution: UC San Diego 
-      year: 2016–2018
+      year: 2016 – 2018
       description:
         - "CSE 20: Discrete Mathematics"
         - "CSE 151: Machine Learning (Undergraduate)"
         - "CSE 250B: Machine Learning (Graduate)"
+
+- title: Consulting experience
+  type: time_table
+  contents:
+    - title: Machine learning consultant
+      institution: NTENT
+      year: 2018
+    - title: Machine learning consultant
+      institution: QubitCrunch LLC
+      year: 2016 – 2018
