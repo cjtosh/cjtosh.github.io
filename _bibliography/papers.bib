@@ -3,82 +3,231 @@
 
 @string{aps = {American Physical Society,}}
 
-@book{einstein1956investigations,
-  bibtex_show={true},
-  title={Investigations on the Theory of the Brownian Movement},
-  author={Einstein, Albert},
-  year={1956},
-  publisher={Courier Corporation},
-  preview={brownian-motion.gif}
+@article{dewaskar2023robustifying,
+  title={Robustifying likelihoods by optimistically re-weighting data},
+  author={Dewaskar, Miheer and Tosh, Christopher and Knoblauch, Jeremias and Dunson, David B},
+  journal={arXiv preprint arXiv:2303.10525},
+  year={2023}
 }
 
-@article{einstein1950meaning,
-  abbr={AJP},
-  bibtex_show={true},
-  title={The meaning of relativity},
-  author={Einstein, Albert and Taub, AH},
-  journal={American Journal of Physics},
-  volume={18},
-  number={6},
-  pages={403--404},
-  year={1950},
-  publisher={American Association of Physics Teachers}
+@article{tosh2022targeted,
+  title={Targeted active learning for probabilistic models},
+  author={Tosh, Christopher and Tec, Mauricio and Tansey, Wesley},
+  journal={arXiv preprint arXiv:2210.12122},
+  year={2022}
 }
 
-@article{PhysRev.47.777,
-  abbr={PhysRev},
-  title={Can Quantum-Mechanical Description of Physical Reality Be Considered Complete?},
-  author={Einstein, A. and Podolsky, B. and Rosen, N.},
-  abstract={In a complete theory there is an element corresponding to each element of reality. A sufficient condition for the reality of a physical quantity is the possibility of predicting it with certainty, without disturbing the system. In quantum mechanics in the case of two physical quantities described by non-commuting operators, the knowledge of one precludes the knowledge of the other. Then either (1) the description of reality given by the wave function in quantum mechanics is not complete or (2) these two quantities cannot have simultaneous reality. Consideration of the problem of making predictions concerning a system on the basis of measurements made on another system that had previously interacted with it leads to the result that if (1) is false then (2) is also false. One is thus led to conclude that the description of reality as given by a wave function is not complete.},
-  journal={Phys. Rev.},
-  volume={47},
-  issue={10},
-  pages={777--780},
-  numpages={0},
-  year={1935},
-  month={May},
-  publisher=aps,
-  doi={10.1103/PhysRev.47.777},
-  url={http://link.aps.org/doi/10.1103/PhysRev.47.777},
-  html={https://journals.aps.org/pr/abstract/10.1103/PhysRev.47.777},
-  pdf={example_pdf.pdf},
-  altmetric={248277},
-  dimensions={true},
+
+
+@inproceedings{tosh22simple,
+  title = 	 {Simple and near-optimal algorithms for hidden stratification and multi-group learning},
+  author =       {Tosh, Christopher and Hsu, Daniel},
+  booktitle = 	 {Proceedings of the 39th International Conference on Machine Learning},
+  pages = 	 {21633--21657},
+  year = 	 {2022},
+  volume = 	 {162},
+  series = 	 {Proceedings of Machine Learning Research},
+  month = 	 {17--23 Jul},
+  publisher =    {PMLR},
+  pdf = 	 {https://proceedings.mlr.press/v162/tosh22a/tosh22a.pdf},
+  url = 	 {https://proceedings.mlr.press/v162/tosh22a.html},
+  abstract = 	 {Multi-group agnostic learning is a formal learning criterion that is concerned with the conditional risks of predictors within subgroups of a population. The criterion addresses recent practical concerns such as subgroup fairness and hidden stratification. This paper studies the structure of solutions to the multi-group learning problem, and provides simple and near-optimal algorithms for the learning problem.},
   selected={true}
 }
 
-@article{einstein1905molekularkinetischen,
-  title={{\"U}ber die von der molekularkinetischen Theorie der W{\"a}rme geforderte Bewegung von in ruhenden Fl{\"u}ssigkeiten suspendierten Teilchen},
-  author={Einstein, A.},
-  journal={Annalen der physik},
-  volume={322},
-  number={8},
-  pages={549--560},
-  year={1905},
-  publisher={Wiley Online Library}
+
+@article{tansey22bayesian,
+author = {Wesley Tansey and Christopher Tosh and David M. Blei},
+title = {{A Bayesian model of dose-response for cancer drug studies}},
+volume = {16},
+journal = {The Annals of Applied Statistics},
+number = {2},
+publisher = {Institute of Mathematical Statistics},
+pages = {680 -- 705},
+abstract = {Exploratory cancer drug studies test multiple tumor cell lines against multiple candidate drugs. The goal in each paired (cell line, drug) experiment is to map out the dose-response curve of the cell line as the dose level of the drug increases. We propose Bayesian tensor filtering (BTF), a hierarchical Bayesian model for dose-response modeling in multisample, multitreatment cancer drug studies. BTF uses low-dimensional embeddings to share statistical strength between similar drugs and similar cell lines. Structured shrinkage priors in BTF encourage smoothness in the dose-response curves while remaining adaptive to sharp jumps when the data call for it. We focus on a pair of cancer drug studies exhibiting a particular pathology in their experimental design, leading us to a nonconjugate monotone mixture-of-gammas likelihood. To perform posterior inference, we develop a variant of the elliptical slice sampling algorithm for sampling from linearly-constrained multivariate normal priors with nonconjugate likelihoods. In benchmarks, BTF outperforms state-of-the-art methods for covariance regression and dynamic Poisson matrix factorization. On the two cancer drug studies, BTF outperforms the current standard approach in biology and reveals potential new biomarkers of drug sensitivity in cancer. Code is available at https://github.com/tansey/functionalmf.},
+keywords = {constrained inference, Dose-response, matrix factorization, slice sampling, Trend filtering},
+year = {2022},
+doi = {10.1214/21-AOAS1485},
+URL = {https://doi.org/10.1214/21-AOAS1485}
 }
 
-@article{einstein1905movement,
-  abbr={Ann. Phys.},
-  title={Un the movement of small particles suspended in statiunary liquids required by the molecular-kinetic theory 0f heat},
-  author={Einstein, A.},
-  journal={Ann. Phys.},
-  volume={17},
-  pages={549--560},
-  year={1905}
+
+@inproceedings{simchowitz21bayesian,
+ author = {Simchowitz, Max and Tosh, Christopher and Krishnamurthy, Akshay and Hsu, Daniel J and Lykouris, Thodoris and Dudik, Miro and Schapire, Robert E},
+ booktitle = {Advances in Neural Information Processing Systems},
+ editor = {M. Ranzato and A. Beygelzimer and Y. Dauphin and P.S. Liang and J. Wortman Vaughan},
+ pages = {26382--26394},
+ publisher = {Curran Associates, Inc.},
+ title = {Bayesian decision-making under misspecified priors with applications to meta-learning},
+ url = {https://proceedings.neurips.cc/paper_files/paper/2021/file/ddcbe25988981920c872c1787382f04d-Paper.pdf},
+ volume = {34},
+ year = {2021}
 }
 
-@article{einstein1905electrodynamics,
-  title={On the electrodynamics of moving bodies},
-  author={Einstein, A.},
-  year={1905}
+@article{tosh2021piranha,
+  title={The piranha problem: Large effects swimming in a small pond},
+  author={Tosh, Christopher and Greengard, Philip and Goodrich, Ben and Gelman, Andrew and Vehtari, Aki and Hsu, Daniel},
+  journal={arXiv preprint arXiv:2105.13445},
+  year={2021}
 }
 
-@book{przibram1967letters,
-  bibtex_show={true},
-  title={Letters on wave mechanics},
-  author={Einstein, Albert and Schrödinger, Erwin and Planck, Max and Lorentz, Hendrik Antoon and Przibram, Karl},
-  year={1967},
-  publisher={Vision},
-  preview={wave-mechanics.gif}
+
+@inproceedings{tosh21contrastive,
+  title = 	 {Contrastive learning, multi-view redundancy, and linear models},
+  author =       {Tosh, Christopher and Krishnamurthy, Akshay and Hsu, Daniel},
+  booktitle = 	 {Proceedings of the 32nd International Conference on Algorithmic Learning Theory},
+  pages = 	 {1179--1206},
+  year = 	 {2021},
+  editor = 	 {Feldman, Vitaly and Ligett, Katrina and Sabato, Sivan},
+  volume = 	 {132},
+  series = 	 {Proceedings of Machine Learning Research},
+  publisher =    {PMLR},
+  pdf = 	 {http://proceedings.mlr.press/v132/tosh21a/tosh21a.pdf},
+  url = 	 {https://proceedings.mlr.press/v132/tosh21a.html},
+  abstract = 	 {Self-supervised learning is an empirically successful approach to unsupervised learning based on creating artificial supervised learning problems. A popular self-supervised approach to representation learning is contrastive learning, which leverages naturally occurring pairs of similar and dissimilar data points, or multiple views of the same data. This work provides a theoretical analysis of contrastive learning in the multi-view setting, where two views of each datum are available. The main result is that linear functions of the learned representations are nearly optimal on downstream prediction tasks whenever the two views provide redundant information about the label.},
+  selected={true}
 }
+
+
+@article{tosh2021contrastivetopic,
+  title={Contrastive estimation reveals topic posterior information to linear models},
+  author={Tosh, Christopher and Krishnamurthy, Akshay and Hsu, Daniel},
+  journal={Journal of Machine Learning Research},
+  volume={22},
+  number={1},
+  pages={12883--12913},
+  year={2021}
+}
+
+
+@inproceedings{tosh2020diameter,
+  title = 	 {Diameter-based interactive structure discovery},
+  author =       {Tosh, Christopher and Hsu, Daniel},
+  booktitle = 	 {Proceedings of the Twenty Third International Conference on Artificial Intelligence and Statistics},
+  pages = 	 {580--590},
+  year = 	 {2020},
+  editor = 	 {Chiappa, Silvia and Calandra, Roberto},
+  volume = 	 {108},
+  series = 	 {Proceedings of Machine Learning Research},
+  month = 	 {26--28 Aug},
+  publisher =    {PMLR},
+  pdf = 	 {http://proceedings.mlr.press/v108/tosh20a/tosh20a.pdf},
+  url = 	 {https://proceedings.mlr.press/v108/tosh20a.html},
+  abstract = 	 {We introduce interactive structure discovery, a generic framework that encompasses many interactive learning settings, including active learning, top-k item identification, interactive drug discovery, and others. We adapt a recently developed active learning algorithm of Tosh and Dasgupta for interactive structure discovery, and show that the new algorithm can be made noise-tolerant and enjoys favorable query complexity bounds.}
+}
+
+
+
+@article{dasgupta2020expressivity,
+  title={Expressivity of expand-and-sparsify representations},
+  author={Dasgupta, Sanjoy and Tosh, Christopher},
+  journal={arXiv preprint arXiv:2006.03741},
+  year={2020}
+}
+
+
+@inproceedings{tosh2019relatve,
+  title = 	 {The relative complexity of maximum likelihood estimation, {MAP} estimation, and sampling},
+  author =       {Tosh, Christopher and Dasgupta, Sanjoy},
+  booktitle = 	 {Proceedings of the Thirty-Second Conference on Learning Theory},
+  pages = 	 {2993--3035},
+  year = 	 {2019},
+  editor = 	 {Beygelzimer, Alina and Hsu, Daniel},
+  volume = 	 {99},
+  series = 	 {Proceedings of Machine Learning Research},
+  publisher =    {PMLR},
+  pdf = 	 {http://proceedings.mlr.press/v99/tosh19a/tosh19a.pdf},
+  url = 	 {https://proceedings.mlr.press/v99/tosh19a.html},
+  abstract = 	 {We prove that, for a broad range of problems, maximum-a-posteriori (MAP) estimation and approximate sampling of the posterior are at least as computationally difficult as maximum-likelihood (ML) estimation. By way of illustration, we show how hardness results for ML estimation of mixtures of Gaussians and topic models carry over to MAP estimation and approximate sampling under commonly used priors.}
+}
+
+@article{dasgupta2019interactive,
+  title={Interactive topic modeling with anchor words},
+  author={Dasgupta, Sanjoy and Poulis, Stefanos and Tosh, Christopher},
+  journal={arXiv preprint arXiv:1907.04919},
+  year={2019}
+}
+
+@inproceedings{tosh2018interactive,
+ author = {Tosh, Christopher and Dasgupta, Sanjoy},
+ booktitle = {Advances in Neural Information Processing Systems},
+ editor = {S. Bengio and H. Wallach and H. Larochelle and K. Grauman and N. Cesa-Bianchi and R. Garnett},
+ publisher = {Curran Associates, Inc.},
+ title = {Interactive structure learning with structural {Query-by-Committee}},
+ url = {https://proceedings.neurips.cc/paper_files/paper/2018/file/08c5433a60135c32e34f46a71175850c-Paper.pdf},
+ volume = {31},
+ year = {2018}
+}
+
+
+@inproceedings{tosh2017diameter,
+  title = 	 {Diameter-based active learning},
+  author =       {Christopher Tosh and Sanjoy Dasgupta},
+  booktitle = 	 {Proceedings of the 34th International Conference on Machine Learning},
+  pages = 	 {3444--3452},
+  year = 	 {2017},
+  editor = 	 {Precup, Doina and Teh, Yee Whye},
+  volume = 	 {70},
+  series = 	 {Proceedings of Machine Learning Research},
+  month = 	 {06--11 Aug},
+  publisher =    {PMLR},
+  pdf = 	 {http://proceedings.mlr.press/v70/tosh17a/tosh17a.pdf},
+  url = 	 {https://proceedings.mlr.press/v70/tosh17a.html},
+  abstract = 	 {To date, the tightest upper and lower-bounds for the active learning of general concept classes have been in terms of a parameter of the learning problem called the splitting index. We provide, for the first time, an efficient algorithm that is able to realize this upper bound, and we empirically demonstrate its good performance.},
+  selected = {true}
+}
+
+@article{tosh2017maximum,
+  title={Maximum likelihood estimation for mixtures of spherical {G}aussians is {NP}-hard.},
+  author={Tosh, Christopher and Dasgupta, Sanjoy},
+  journal={Journal of Machine Learning Research},
+  volume={18},
+  pages={175--1},
+  year={2017}
+}
+
+
+@inproceedings{tosh2016mixing,
+  title = 	 {Mixing rates for the alternating {G}ibbs sampler over restricted {B}oltzmann machines and friends},
+  author = 	 {Tosh, Christopher},
+  booktitle = 	 {Proceedings of The 33rd International Conference on Machine Learning},
+  pages = 	 {840--849},
+  year = 	 {2016},
+  editor = 	 {Balcan, Maria Florina and Weinberger, Kilian Q.},
+  volume = 	 {48},
+  series = 	 {Proceedings of Machine Learning Research},
+  address = 	 {New York, New York, USA},
+  month = 	 {20--22 Jun},
+  publisher =    {PMLR},
+  pdf = 	 {http://proceedings.mlr.press/v48/tosh16.pdf},
+  url = 	 {https://proceedings.mlr.press/v48/tosh16.html},
+  abstract = 	 {Alternating Gibbs sampling is a modification of classical Gibbs sampling where several variables are simultaneously sampled from their joint conditional distribution. In this work, we investigate the mixing rate of alternating Gibbs sampling with a particular emphasis on Restricted Boltzmann Machines (RBMs) and variants.}
+}
+
+
+@inproceedings{tosh2014lower,
+  title = 	 {Lower bounds for the {G}ibbs Sampler over mixtures of {G}aussians},
+  author = 	 {Tosh, Christopher and Dasgupta, Sanjoy},
+  booktitle = 	 {Proceedings of the 31st International Conference on Machine Learning},
+  pages = 	 {1467--1475},
+  year = 	 {2014},
+  editor = 	 {Xing, Eric P. and Jebara, Tony},
+  volume = 	 {32},
+  number =       {2},
+  series = 	 {Proceedings of Machine Learning Research},
+  address = 	 {Bejing, China},
+  month = 	 {22--24 Jun},
+  publisher =    {PMLR},
+  pdf = 	 {http://proceedings.mlr.press/v32/tosh14.pdf},
+  url = 	 {https://proceedings.mlr.press/v32/tosh14.html},
+  abstract = 	 {The mixing time of a Markov chain is the minimum time t necessary for the total variation distance between the distribution of the Markov chain’s current state X_t and its stationary distribution to fall below some ε&gt; 0. In this paper, we present lower bounds for the mixing time of the Gibbs sampler over Gaussian mixture models with Dirichlet priors.}
+}
+
+%@book{przibram1967letters,
+%  bibtex_show={true},
+%  title={Letters on wave mechanics},
+%  author={Einstein, Albert and Schrödinger, Erwin and Planck, Max and Lorentz, Hendrik Antoon and Przibram, Karl},
+%  year={1967},
+%  publisher={Vision},
+%  preview={wave-mechanics.gif}
+%}
