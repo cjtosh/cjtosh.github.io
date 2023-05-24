@@ -1,4 +1,4 @@
-- title: General Information
+- title: General information
   type: map
   contents:
     - name: Full Name
@@ -18,7 +18,7 @@
       institution: University of Texas at Austin
       year: 2008 – 2012
 
-- title: Experience
+- title: Academic appointments
   type: time_table
   contents:
     - title: Associate Research Scientist
