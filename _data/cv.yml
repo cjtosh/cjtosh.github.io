@@ -62,7 +62,18 @@
         - Neural Information Processing Systems (NeurIPS)
         - Conference on Uncertainty in Artificial Intelligence (UAI)
 
-- title: Other Interests
-  type: list
+- title: Academic appointments
+  type: time_table
   contents:
-    - <u>Hobbies:</u> Hobby 1, Hobby 2, etc.
+    - title: Lecturer
+      institution: Columbia University 
+      year: 2019
+      description:
+        - "COMS 3203: Discrete Mathematics"
+    - title: Teaching assistant
+      institution: UC San Diego 
+      year: 2016–2018
+      description:
+        - "CSE 20: Discrete Mathematics"
+        - "CSE 151: Machine Learning (Undergraduate)"
+        - "CSE 250B: Machine Learning (Graduate)"
