@@ -1,0 +1,6 @@
+Unfortunately, the proof of Theorem 10, concerning "Algorithm 3" (Consistent majority algorithm) in the group-realizable setting, is flawed, due to a incorrect bound on the number of possible hypotheses that could be output by the algorithm.
+Replacing this incorrect bound with the conservative $|\mathcal{H}^{|\mathcal{G}|}$ leads to a substantially worse bound of
+$$
+  L(f \mid g) \leq O(\log(|\mathcal{H}|^{|\mathcal{G}|}/\delta) / \#_n(g))
+$$
+for all $g in \mathcal{G}$.
