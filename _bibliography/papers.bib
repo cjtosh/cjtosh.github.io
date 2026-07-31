@@ -1,18 +1,23 @@
 ---
 ---
 
-@article{dewaskar2025robustifying,
-  title={Robustifying likelihoods by optimistically re-weighting data},
-  author={M. Dewaskar and C. Tosh and J. Knoblauch and D. B. Dunson},
-  journal={Journal of the American Statistical Association},
-  arxiv={2303.10525},
-  abstract={Likelihood-based inferences have been remarkably successful in wide-spanning application areas. However, even after due diligence in selecting a good model for the data at hand, there is inevitably some amount of model misspecification: outliers, data contamination or inappropriate parametric assumptions such as Gaussianity mean that most models are at best rough approximations of reality. A significant practical concern is that for certain inferences, even small amounts of model misspecification may have a substantial impact; a problem we refer to as brittleness. This article attempts to address the brittleness problem in likelihood-based inferences by choosing the most model friendly data generating process in a distance-based neighborhood of the empirical measure. This leads to a new Optimistically Weighted Likelihood (OWL), which robustifies the original likelihood by formally accounting for a small amount of model misspecification. Focusing on total variation (TV) neighborhoods, we study theoretical properties, develop estimation algorithms and illustrate the methodology in applications to mixture models and regression.},
-  volume={120},
-  number={551},
-  pages={1787--1798},
-  year={2025},
-  html={https://www.tandfonline.com/doi/abs/10.1080/01621459.2025.2468012},
-  selected={true}
+@article{pichotta2026pan,
+  title={A pan-cancer ex vivo drug screen atlas for functional precision oncology},
+  author={K. Pichotta and J.B. White and J.F. Quinn and A. Markus and C. Tosh and A. De Mathelin and E. Coyne and F. Huang and W. Tansey},
+  journal={bioRxiv},
+  biorxiv={10.64898/2026.02.14.705918}, 
+  year={2026},
+  abstract={Compared to immortalized cell lines, patient-derived organoids and other ex vivo models have been shown to better recapitulate patient responses to therapy. High cost and technical complexity have prevented the creation of pan-cancer ex vivo datasets, limiting comprehensive analyses and predictive modeling for ex vivo drug response. We present the Pan-PreClinical (PPC) project: a drug screen atlas of 2.1M experiments across 1,982 ex vivo samples and 3,100 drugs spanning 134 cancer indications tested across 26 studies. We develop a contrastive Bayesian model to harmonize across studies, identifying 303 tissue-specific drug sensitivities and demonstrating drug sensitivities are predictive of clinically-relevant molecular profiles. Integrating established cell line databases reveals systematic biases across 55 cancer subtypes, with cell line screens favoring drugs targeting highly proliferative cells and undervaluing cell-cell communication targets. We leverage PPC to establish an ex vivo foundation model and computational platform for scalable ex vivo cancer biology and predictive oncology.}
+}
+
+@inproceedings{sinha2026optimal,
+  title={Optimal rates for density and mode estimation with expand-and-sparsify representations},
+  author={K. Sinha and C. Tosh},
+  booktitle={The 29th International Conference on Artificial Intelligence and Statistics},
+  year={2026},
+  pdf={https://openreview.net/pdf?id=kHuqnMOJwD},
+  arxiv={2602.06175},
+  abstract={Expand-and-sparsify representations are a class of theoretical models that capture sparse  representation phenomena observed in the sensory systems of many animals. At a high level, these representations map an input $x \in \RR^d$ to a much higher dimension $m \gg d$ via random linear projections before zeroing out all but the $k \ll m$ largest entries. The result is a $k$-sparse vector in $\{0,1\}^m$. We study the suitability of this representation for two fundamental statistical problems: density estimation and mode estimation. For density estimation, we show that a simple linear function of the expand-and-sparsify representation produces an estimator with minimax-optimal $\ell_{\infty}$ convergence rates. In mode estimation, we provide simple algorithms on top of our density estimator that recover single or multiple modes at optimal rates up to logarithmic factors under mild conditions.}
 }
 
 @article{tosh2025piranha,
@@ -36,7 +41,33 @@
   number={1},
   pages={156},
   year={2025},
-  html={https://www.nature.com/articles/s41467-024-55287-7}
+  html={https://www.nature.com/articles/s41467-024-55287-7},
+  biorxiv={10.1101/2023.12.18.572245}, 
+  selected={true},
+  abstract={Large-scale combination drug screens are generally considered intractable due to the immense number of possible combinations. Existing approaches use ad hoc fixed experimental designs then train machine learning models to impute unobserved combinations. Here we propose BATCHIE, an orthogonal approach that conducts experiments dynamically in batches. BATCHIE uses information theory and probabilistic modeling to design each batch to be maximally informative based on the results of previous experiments. On retrospective experiments from previous large-scale screens, BATCHIE designs rapidly discover highly effective and synergistic combinations. In a prospective combination screen of a library of 206 drugs on a collection of pediatric cancer cell lines, the BATCHIE model accurately predicts unseen combinations and detects synergies after exploring only 4% of the 1.4M possible experiments. Further, the model identifies a panel of top combinations for Ewing sarcomas, which follow-up validation experiments confirm to be effective, including the rational and translatable top hit of PARP plus topoisomerase I inhibition. These results demonstrate that adaptive experiments can enable large-scale unbiased combination drug screens with a relatively small number of experiments. BATCHIE is open source and publicly available (https://github.com/tansey-lab/batchie).}
+}
+
+@article{dewaskar2025robustifying,
+  title={Robustifying likelihoods by optimistically re-weighting data},
+  author={M. Dewaskar and C. Tosh and J. Knoblauch and D. B. Dunson},
+  journal={Journal of the American Statistical Association},
+  arxiv={2303.10525},
+  abstract={Likelihood-based inferences have been remarkably successful in wide-spanning application areas. However, even after due diligence in selecting a good model for the data at hand, there is inevitably some amount of model misspecification: outliers, data contamination or inappropriate parametric assumptions such as Gaussianity mean that most models are at best rough approximations of reality. A significant practical concern is that for certain inferences, even small amounts of model misspecification may have a substantial impact; a problem we refer to as brittleness. This article attempts to address the brittleness problem in likelihood-based inferences by choosing the most model friendly data generating process in a distance-based neighborhood of the empirical measure. This leads to a new Optimistically Weighted Likelihood (OWL), which robustifies the original likelihood by formally accounting for a small amount of model misspecification. Focusing on total variation (TV) neighborhoods, we study theoretical properties, develop estimation algorithms and illustrate the methodology in applications to mixture models and regression.},
+  volume={120},
+  number={551},
+  pages={1787--1798},
+  year={2025},
+  html={https://www.tandfonline.com/doi/abs/10.1080/01621459.2025.2468012},
+  selected={true}
+}
+
+@article{tosh2025treatment,
+  title={Treatment response as a latent variable},
+  author={C. Tosh and B. Zhang and W. Tansey},
+  journal={arXiv preprint arXiv:2502.08776},
+  year={2025},
+  arxiv={2502.08776},
+  abstract={Scientists often need to analyze the samples in a study that responded to treatment in order to refine their hypotheses and find potential causal drivers of response. Natural variation in outcomes makes teasing apart responders from non-responders a statistical inference problem. To handle latent responses, we introduce the causal two-groups (C2G) model, a causal extension of the classical two-groups model. The C2G model posits that treated samples may or may not experience an effect, according to some prior probability. We propose two empirical Bayes procedures for the causal two-groups model, one under semi-parametric conditions and another under fully nonparametric conditions. The semi-parametric model assumes additive treatment effects and is identifiable from observed data. The nonparametric model is unidentifiable, but we show it can still be used to test for response in each treated sample. We show empirically and theoretically that both methods for selecting responders control the false discovery rate at the target level with near-optimal power. We also propose two novel estimands of interest and provide a strategy for deriving estimand intervals in the unidentifiable nonparametric model. On a cancer immunotherapy dataset, the nonparametric C2G model recovers clinically-validated predictive biomarkers of both positive and negative outcomes.}
 }
 
 @article{tosh2022targeted,
